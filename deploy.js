@@ -35,7 +35,6 @@ const main = async () => {
   };
   // const txres = await wallet.sendTransaction(tx); // Signed Transaction
   // await txres.wait(1);
-  // console.log(txres);
 
   const favNum = await contract.retrieve();
   console.log(favNum.toString());
